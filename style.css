@@ -1,0 +1,53 @@
+.singup {
+  display: flex;
+  max-width: 1200px;
+  width: 90%;
+  height: 95%vh;
+  margin: auto;
+}
+
+.signup-left {
+  width: 50%;
+  background-color: violet;
+  /* border: 1px solid green; */
+}
+
+.signup-right {
+    width: 50%;
+    background-color: violet;
+}
+
+input {
+  height: 20px;
+  width: 250px;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 30px;
+}
+
+img {
+  height: 100vh;
+  /* padding: 10px; */
+  margin: 0 auto;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: aqua;
+  color: brown;
+  cursor: pointer;
+}
+
+.btn1 {
+  display: block;
+}
+
+label {
+  font-size: 20px;
+}
